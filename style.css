@@ -1,4 +1,26 @@
-discographie {
-    height: 200;
-    width:200;
+* {
+    margin:0;
+
+}
+body {
+
+    background-image: url("fond.jpg");
+}
+#hers {
+    height:200px;
+    width:200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tt {
+    font-size:30px;
+    display: flex;
+    gap: 30px;
+}
+
+#vinyle_Hers:hover{
+    transform: rotate(15deg);
 }

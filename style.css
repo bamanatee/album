@@ -1,10 +1,13 @@
-* {
+html, body{
     margin:0;
-
 }
 body {
-
-    background-image: url("fond.jpg");
+    background-image: url("morning mist.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 #hers {
     height:200px;
@@ -21,12 +24,6 @@ h1 {
     gap: 30px;
     background-color: blue;
 }
-#vinyle_Hers{
-    margin-left:150px;
-}
-#vinyle_Hers:hover{
-    transform: rotate(-15deg);
-}
 #switch{
     display:block;
     margin-left: auto;
@@ -38,13 +35,43 @@ h1 {
     height:170px;
     width:220px;
 }
-#intro #biographie{
+#biographie{
     float:right;
 }
 .vinyles{
     margin-left:150px;
 }
-body #intro{
-    background: color #eae2DB;
 
+#vinyle_Hers{
+    width:20%;
+    height:15%;
+}
+
+#Album_HERS{
+    align-content:center;
+    justify-content: center;
+}
+
+#album_presentation{
+    display:flex;
+    flex-direction: row wrap;
+}
+.fenetre{
+    background-image: url(cadre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:2%;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:5%;
+    align-self:center;
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+#tracklist{
+    display:flex;
+    flex-direction: row wrap;
 }
